@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage ('Git checkout') {
             steps {
-                git branch: 'main', credentialsId: 'Project1A-new', url: 'https://github.com/Adeakoko/Terraform_SCM-Job-repo.git'
+                git branch: 'main', credentialsId: 'Project1A-new', url: 'https://github.com/Adeakoko/warwick-repo.git'
             }
         }       
     
